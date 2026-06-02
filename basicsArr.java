@@ -29,7 +29,7 @@ public class basicsArr {
         System.out.println();
         System.out.println("Length of Marks is "+ marks.length);
 
-
+        sc.close();
         
     }
 }
