@@ -40,5 +40,22 @@ public class DVDArr {
         System.out.println(dvdCollection[9]);
         System.out.println(dvdCollection[2]);
         System.out.println(dvdCollection[3]);
+
+        int sqNums[] = new int[10];
+
+        for(int i=0; i<10; i++) {
+            int square = (i+1) * (i+1);
+            sqNums[i] = square;
+        }
+
+        for(int i=0; i<10; i++) {
+            System.out.print(sqNums[i] + " ");
+        }
+
+        System.out.println();
+
+        for(int square : sqNums) {
+            System.out.println(square);
+        }
     }
 }
