@@ -25,5 +25,20 @@ public class DVDArr {
         DVDArr avengersDVD = new DVDArr("The Avengers", 2012, "Joss Whedon");
 
         dvdCollection[4] = avengersDVD;
+
+        DVDArr incrediblesDVD = new DVDArr("The Incredibles", 2004, "Brad Bird");
+        DVDArr findingDoryDVD = new DVDArr("Finding Dory", 2016, "Andrew Stanton");
+        DVDArr lionKingDVD = new DVDArr("The Lion King", 2019, "Jon Favreau");
+
+        dvdCollection[3] = incrediblesDVD;
+        dvdCollection[9] = findingDoryDVD;
+        dvdCollection[2] = lionKingDVD;
+
+        DVDArr starWarsDVD = new DVDArr("Star Wars", 1977, "George Lucas");
+        dvdCollection[3] = starWarsDVD; 
+
+        System.out.println(dvdCollection[9]);
+        System.out.println(dvdCollection[2]);
+        System.out.println(dvdCollection[3]);
     }
 }
