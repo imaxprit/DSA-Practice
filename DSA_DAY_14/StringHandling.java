@@ -10,7 +10,7 @@ public class StringHandling {
         
         System.out.println(city);
         // System.out.println(city1);
-        // System.out.println(city2);
+        System.out.println(city2);
 
         // String Length
         System.out.println((city.length()));
