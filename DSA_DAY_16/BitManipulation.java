@@ -26,5 +26,18 @@ public class BitManipulation {
         // Binary Right shift >>
         System.out.println(6 >> 1);
         System.out.println(12 >> 4);
+
+        printEvenOdd(10);
+    }
+
+
+    // check if a number is even or odd
+    public static void printEvenOdd(int n) {
+        int bitMask = 1;
+        if((n & bitMask) == 0) {
+            System.out.println("Number is Even");
+        } else {
+            System.out.println("Number is Odd");
+        }
     }
 }
