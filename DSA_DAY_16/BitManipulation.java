@@ -18,6 +18,13 @@ public class BitManipulation {
         System.out.println(~5);     // ~n = -(n+1)
         System.out.println(~9);
 
-        
+        // Binary Left shift << 
+        System.out.println(5 << 2);
+        System.out.println(3 << 4);
+        System.out.println(8 << 3);
+
+        // Binary Right shift >>
+        System.out.println(6 >> 1);
+        System.out.println(12 >> 4);
     }
 }
