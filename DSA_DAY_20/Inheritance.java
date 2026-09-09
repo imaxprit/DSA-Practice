@@ -4,9 +4,12 @@ public class Inheritance {
     
     public static void main(String args[]) {
 
-        Car myCar = new Car();
-        myCar.start();
-        myCar.drive();
+        // Car myCar = new Car();
+        // myCar.start();
+        // myCar.drive();
+
+        Dog myDog = new Dog();
+        myDog.eat();
     }
 }
 
@@ -21,3 +24,15 @@ class Car extends Vehicle {
         System.out.println("Car Drives.");
     }
 }
+
+interface Animal {
+    void eat();
+}
+
+class Dog implements Animal {
+    public void eat() {
+        System.out.println("Dog eats");
+    }
+}
+
+
