@@ -32,6 +32,7 @@ interface Animal {
 class Dog implements Animal {
     public void eat() {
         System.out.println("Dog eats");
+        System.out.println("Animals");
     }
 }
 
