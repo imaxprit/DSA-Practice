@@ -26,6 +26,10 @@ class Calculator {
     int sum(int a, int b, int c) {
         return a + b + c;
     }
+
+    float sum(float a, float b, float c) {
+        return a + b + c;
+    }
 }
 
 class Fish {
